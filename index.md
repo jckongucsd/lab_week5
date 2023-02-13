@@ -1,10 +1,18 @@
 # Commands for *find*
 
-## Command 1: -newBt
+## Command 1: -mtime 
 
+### find . -mtime 1
 
+This tag (-mtime) filters out all the files that is modified between 24 and 48 hours ago. This is helpful, because it can act like a git feature, allowing the user to see which files are changed and which ones are not.
 
-<img width="552" alt="Screen Shot 2023-02-13 at 11 08 51 AM" src="https://user-images.githubusercontent.com/122569310/218551647-69c632dc-e38e-4b1c-b283-a7af6df241ea.png">
+<img width="407" alt="Screen Shot 2023-02-13 at 12 00 52 PM" src="https://user-images.githubusercontent.com/122569310/218562590-bbc75643-2ba5-4890-a539-9282049027b0.png">
+
+### find . -mtime 0
+This tag (-mtime) filters out all the files that is modified between now and 1 day ago. This is helpful, because it can act like a git feature, allowing the user to see which files are changed and which ones are not. It is especially useful when you forgot which files you edited. 
+
+<img width="407" alt="Screen Shot 2023-02-13 at 12 00 52 PM" src="https://user-images.githubusercontent.com/122569310/218562579-c43c43a9-4d13-4720-a6f2-723c96cd9292.png">
+
 
 
 
